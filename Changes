@@ -1,0 +1,22 @@
+Revision history for Perl extension Net::Libdnet.
+
+0.91 Sun Dec  7 19:15:43 CET 2008
+   - new: Net::Libdnet::Intf methods now return a Net::Libdnet::Entry::Intf object
+   - new: Net::Libdnet::Intf now also has getSrcIntfFromDst(), getSrcIpFromDst()
+   - update: constants renamed to be prefixed with DNET_
+
+0.90 Tue Nov 25 22:44:42 CET 2008
+   - complete rewrite of XS code
+   - near full implementation of libdnet API
+   - two APIs: a low-level and a high-level object oriented one
+   - backward compatibility should remain
+
+0.02 Tue Nov 25 20:59:27 CET 2008
+   - ownership transfered to me
+   - updated copyright notices
+   - still uses a BSD license
+
+0.01 Wed Jul  7 21:11:29 2004
+   Original version
+   Tested on FreeBSD 5.2.1
+

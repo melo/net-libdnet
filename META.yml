@@ -1,0 +1,14 @@
+--- #YAML:1.0
+name:                Net-Libdnet
+version:             0.91
+abstract:            binding for Dug Song's libdnet
+license:             bsd
+author:              
+    - GomoR <perl@gomor.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+    Class::Gomor:                  0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
